@@ -1,0 +1,16 @@
+# dsh-amber bundle layer
+# Replace the stock compaction backend with one that skips protected seq ranges.
+# The three values below are defaults; adjust them to taste.
+#   thresholdRatio — fraction of the context window at which compaction triggers.
+#   retainTokens   — tokens kept in context after compaction.
+#   headroomTokens — tokens reserved for the completion / headroom.
+- id: compaction-basic
+  disabled: true
+- insert:
+    - id: dsh-amber
+      name: dsh-amber
+      config:
+        thresholdRatio: 0.95
+        retainTokens: 32000
+        headroomTokens: 65536
+        auto: true
