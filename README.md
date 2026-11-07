@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-dsh plugin --profile <profile-name> add <github 仓库地址>
+dsh plugin --profile <profile-name> add https://github.com/Hanayano/dsh-amber
 ```
 
 装完按 DSH 的提示重启（或重载）一次，让新引擎接管压缩管线。
