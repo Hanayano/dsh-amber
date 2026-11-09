@@ -55,3 +55,7 @@ DSH_AMBER_FILE=/path/to/amber.json
 ## License
 
 [MIT](./LICENSE)
+
+## 琥珀
+
+透明的外壳中包裹着一只栩栩如生的的死物
